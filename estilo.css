@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+html{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 36px 0;
+}
+
+.mae{
+    color: blue;
+    background-color:yellow;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+
+
+}
+.links{
+    background-color: brown;
+}
+
+@media (min-width: 360px) and (max-width:720px){
+    .mae{
+        background-color: rgb(96, 78, 112);
+        width: 85%;
+        height: 668px;
+        margin: 0 auto;
+        padding-top: 50px;
+        border-radius: 20px;
+        
+    }
+    .links{
+        background-color: rgb(163, 165, 42);
+        width: 85%;
+        height: 60px;
+        margin:0px auto 80px;
+        text-align: center;
+        padding-top:30px ;
+        border-radius: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .insta  img{
+        width: 100px;
+        margin-left: 35px;
+    }
+    
+}
